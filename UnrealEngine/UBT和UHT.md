@@ -63,4 +63,21 @@ public class MyModule : ModuleRules
 
 ## 编译配置(BuildConfiguration)
 
+配置引擎的编译方式。
+
+除添加到 Config/UnrealBuildTool 文件夹中已生成UE4项目外，虚幻编译工具还会从以下位置（Windows系统）的XML配置文件读取设置：
+
+- Engine/Saved/UnrealBuildTool/BuildConfiguration.xml
+- User Folder/AppData/Roaming/Unreal Engine/UnrealBuildTool/BuildToolConfiguration.xml
+- My Documents/Unreal Engine/UnrealBuildTool/BuildConfiguration.xml
+
+如果是Linux和Mac，则会从以下路径读取：
+
+- /Users//.config//Unreal Engine/UnrealBuildTool/BuildConfiguration.xml
+- /Users//Unreal Engine/UnrealBuildTool/BuildConfiguration.xml
+
+[官方详细文档](https://docs.unrealengine.com/zh-CN/ProductionPipelines/BuildTools/UnrealBuildTool/BuildConfiguration/index.html)
+
 ## IWYU
+
+[官方详细文档](https://docs.unrealengine.com/zh-CN/ProductionPipelines/BuildTools/UnrealBuildTool/IWYU/index.html)
