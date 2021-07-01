@@ -1,0 +1,1 @@
+- Get User Widget Object: 通过当前的的组件获得user widget对象
